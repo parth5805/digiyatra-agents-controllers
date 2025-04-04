@@ -1,0 +1,13 @@
+version: '3'
+services:
+  frankfurt-controller:
+    build: .
+    ports:
+      - "8140:80"  # Expose a different port for the controller
+    environment:
+      - AGENT_HOST=host.docker.internal
+      - AGENT_PORT=8003
+    networks:
+      - aca
+networks:
+  aca:

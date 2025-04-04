@@ -1,0 +1,25 @@
+﻿@page "/connections"
+
+@layout MainLayout
+@inherits LayoutComponentBase
+
+@using DigiyatraController.Shared.Components.ComponentNav
+@using DigiyatraController.Services
+@using Newtonsoft.Json.Linq
+
+@inject FCAgentService AgentService
+@inject NavigationManager NavigationManager
+
+<ComponentNav>
+    <NavLink class="nav-item nav-link" href="/connections/active">Active</NavLink>
+    <NavLink class="nav-item nav-link" href="/connections/pending">Pending</NavLink>
+    <NavLink class="nav-item nav-link" href="/connections/new">New</NavLink>
+    <NavLink class="nav-item nav-link" href="/connections/accept">Accept</NavLink>
+</ComponentNav>
+
+<div class="content">
+    @Body
+</div>
+
+@code {
+}
