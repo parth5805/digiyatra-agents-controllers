@@ -87,7 +87,7 @@ Once all services are up, visit:
 
 Open the DigiYatra Admin API docs: http://localhost:8010/api/doc
 
-POST /schemas
+**POST /schemas**
 
 Click “Try it out” and paste this schema body:
 
@@ -129,15 +129,13 @@ Click “Try it out” and paste this schema body:
 
 Use this endpoint:
 
-**GET /schemas/created
-**
+**GET /schemas/created**
 
 Copy the latest schema_id.
 
 Then use:
 
-**POST /credential-definition
-**
+**POST /credential-definition**
 ```json
 {
   "schema_id": "<PASTE_YOUR_SCHEMA_ID_HERE>"
