@@ -77,9 +77,9 @@ docker compose down --rmi all
 ## 🌐 Access the Demo Interfaces
 
 Once all services are up, visit:
-	- DigiYatra (Issuer): http://localhost:8120/
-	- Passenger (Holder): http://localhost:8130/
-	- Frankfurt Airport (Verifier): http://localhost:8140/
+- DigiYatra (Issuer): http://localhost:8120/
+- Passenger (Holder): http://localhost:8130/
+- Frankfurt Airport (Verifier): http://localhost:8140/
 
 ## 🛠 Schema & Credential Setup
 
