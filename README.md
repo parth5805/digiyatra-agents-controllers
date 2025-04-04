@@ -22,14 +22,13 @@ There are **three independent Aries agents** involved:
 2. **Passenger Agent** (Holder)
 3. **Frankfurt Agent** (Verifier)
 
-Each agent is connected to its own controller in this repository and communicates over HTTP + DIDComm.
+Each agent is connected to its own controller in this repository.
 
 ---
 
 ## ⚙️ Prerequisites
 
 - Docker & Docker Compose
-- Python 3.9+ (optional, for CLI interactions)
 - [digiyatra-agents repo](https://github.com/parth5805/digiyatra-agents) cloned and running
 
 ---
